@@ -1,0 +1,58 @@
+GIT
+  remote: git://github.com/raggi/thin.git
+  revision: e04855459cb42fd98a0a483075f8337cafe6d949
+  branch: hijack
+  specs:
+    thin (1.5.0)
+      daemons (>= 1.0.9)
+      eventmachine (>= 0.12.6)
+      rack (>= 1.0.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    binding_of_caller (0.7.2)
+      debug_inspector (>= 0.0.1)
+    byebug (9.0.6)
+    coderay (1.1.1)
+    daemons (1.2.4)
+    debug_inspector (0.0.2)
+    eventmachine (1.2.1)
+    method_source (0.8.2)
+    passenger (5.0.30)
+      rack
+      rake (>= 0.8.1)
+    pry (0.10.4)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+    pry-byebug (3.4.1)
+      byebug (~> 9.0)
+      pry (~> 0.10)
+    pry-doc (0.9.0)
+      pry (~> 0.9)
+      yard (~> 0.8)
+    pry-stack_explorer (0.4.9.2)
+      binding_of_caller (>= 0.7)
+      pry (>= 0.9.11)
+    puma (3.6.0)
+    rack (2.0.1)
+    rake (11.3.0)
+    slop (3.6.0)
+    yard (0.9.5)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  passenger
+  pry
+  pry-byebug
+  pry-doc
+  pry-stack_explorer
+  puma
+  rack
+  thin!
+
+BUNDLED WITH
+   1.13.6
